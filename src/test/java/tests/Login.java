@@ -1,5 +1,6 @@
 package tests;
 
+import model.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -12,12 +13,14 @@ public class Login extends TestBase {
             app.getUser().logOut();
         }
     }
+
     @Test
     public void login1() {
+        User user = User.builder().email("inavernitskaya@gmail.com").password("aA54321!").build();
 
         app.getUser().initLogin();
         app.getUser().pause(2000);
-        app.getUser().fillINLoginForm("inavernitskaya@gmail.com", "aA54321!");
+        app.getUser().fillINLoginForm(user);
         app.getUser().submitLogin();
         app.getUser().pause(2000);
 
@@ -26,3 +29,29 @@ public class Login extends TestBase {
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

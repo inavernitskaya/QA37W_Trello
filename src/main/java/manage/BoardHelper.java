@@ -1,5 +1,6 @@
 package manage;
 
+import model.Board;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Rectangle;
 import org.openqa.selenium.WebDriver;
@@ -14,12 +15,15 @@ public class BoardHelper extends HelperBase{
     }
 
     public void initBoardCreationFromHeader() {
-        click(By.cssSelector(".szBTSFrvPTLGHM"));//[data-testid='header-create-menu-button']"));
-        click(By.cssSelector("button[data-testid='header-create-board-button'] p[class='ngLzg2JOI5hhvs']")); //[data-testid='header-create-board-button']
+        click(By.cssSelector("[data-testid='header-create-menu-button']"));
+        click(By.cssSelector("[aria-label='BoardIcon']")); //[data-testid='header-create-board-button']
     }
 
     public void fillInBoardCreationForm(String title) {
         type(By.cssSelector("[data-testid='create-board-title-input']"),title);
+    }
+    public void fillInBoardCreationForm(Board board) {
+        type(By.cssSelector("[data-testid='create-board-title-input']"),board.getTitle());
     }
 
     public void submitBoardCreation() {
@@ -36,6 +40,7 @@ public class BoardHelper extends HelperBase{
 
     public boolean isCreated() {
         return wd.findElements(By.cssSelector(".list-name-input")).size()>0;
+
     }
 
     public void returnToHomePage() {
@@ -50,7 +55,7 @@ public class BoardHelper extends HelperBase{
         return wd.findElements(By.xpath("//*[contains(@class, 'icon-clock')]/../..//div")).size();
     }
 
-    public void clickTfeFirstBoard() {
+    public void clickTheFirstBoard() {
         click(By.cssSelector(".board-tile-details"));
     }
 
@@ -62,7 +67,6 @@ public class BoardHelper extends HelperBase{
         click(By.cssSelector(".js-open-more"));
     }
 
-
     public void closeBoard() {
         click(By.cssSelector(".js-close-board"));
         click(By.cssSelector(".js-confirm"));
@@ -71,5 +75,22 @@ public class BoardHelper extends HelperBase{
     public void deleteBoard() {
         click(By.cssSelector("[data-testid='close-board-delete-board-button']"));
         click(By.cssSelector("[data-testid='close-board-delete-board-confirm-button']"));
+    }
+
+    public void startBoardCreation() {
+        click(By.cssSelector(".remaining"));
+    }
+
+    public void openBoard() {
+        click(By.cssSelector("[data-testid='close-board-reopen-confirm-button']"));
+        click(By.cssSelector(".Ln0GhM7BZqFQqn"));
+    }
+
+    public void closeCreationWindow() {
+        click(By.cssSelector("[data-testid='popover-close']"));
+    }
+
+    public void returnToCreationPage() {
+        click(By.cssSelector(".Uz5Itgv85sjPQ_"));
     }
 }
