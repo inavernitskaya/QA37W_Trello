@@ -1,15 +1,19 @@
 package tests;
 
 import model.Board;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class BoardCreation extends TestBase {
+    Logger logger = LoggerFactory.getLogger(BoardCreation.class);
 
 
     @Test
     public void boardCreation1() {
         Board board = Board.builder().title("qa37").build();
+        logger.info("Board creation---"+board.getTitle());
 
         app.getBoard().initBoardCreationFromHeader();
         app.getBoard().fillInBoardCreationForm(board);
@@ -20,6 +24,7 @@ public class BoardCreation extends TestBase {
         //app.getBoard().isCreated();
 
         Assert.assertTrue(app.getBoard().isCreated());
+        logger.info("Created");
         //app.getBoard().pause(2000);
         // app.getBoard().returnToHomePage();
 
@@ -72,6 +77,5 @@ public class BoardCreation extends TestBase {
         app.getBoard().initBoardCreationFromHeader();
         app.getBoard().returnToCreationPage();
     }
-
 
 }

@@ -3,15 +3,15 @@ package tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class UserModification extends TestBase{
+public class UserModification extends TestBase {
     @Test
-    public void testNewTab(){
+    public void testNewTab() {
         app.getUser().openTabAndSwitch();
         app.getUser().pause(2000);
     }
 
     @Test
-    public void changeAvatar(){
+    public void changeAvatar() {
         app.getUser().clickTheAvatar();
         app.getUser().pause(2000);
         app.getUser().openUserProfile();
@@ -19,7 +19,12 @@ public class UserModification extends TestBase{
         app.getUser().pause(2000);
 
         Assert.assertTrue(app.getUrl().contains("https://id.atlassian.com/manage-profile/profile-and-visibility"));
+        app.getAtlassian().initChangePhoto();
+        app.getAtlassian().uploadPhoto("");
+        app.getAtlassian().pause(2000);
+        app.getUser().returnToThello();
 
+        Assert.assertTrue(app.getUrl().contains("https://trello.com/"));
 
     }
 }
