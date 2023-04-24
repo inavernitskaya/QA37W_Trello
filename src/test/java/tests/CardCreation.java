@@ -33,4 +33,3 @@ public class CardCreation extends TestBase{
         app.getBoard().returnToHomePage();
     }
 }
-

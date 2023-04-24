@@ -10,7 +10,7 @@ public class ListHelper extends HelperBase{
 
     public void createList(String listName) {
         click(By.cssSelector(".icon-add"));
-        type(By.cssSelector(".list-name-input"),listName);
+        type(By.xpath("[@placeholder='Enter a title for this card…']"),listName);
         click(By.cssSelector(".js-save-edit"));
 
 

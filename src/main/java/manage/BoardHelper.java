@@ -23,7 +23,7 @@ public class BoardHelper extends HelperBase{
         type(By.cssSelector("[data-testid='create-board-title-input']"),title);
     }
     public void fillInBoardCreationForm(Board board) {
-        type(By.cssSelector("input[type='text']"),board.getTitle());
+        type(By.cssSelector("[data-testid='create-board-title-input']"),board.getTitle());
     }
 
     public void submitBoardCreation() {
@@ -55,12 +55,14 @@ public class BoardHelper extends HelperBase{
         return wd.findElements(By.xpath("//*[contains(@class, 'icon-clock')]/../..//div")).size();
     }
 
+
     public void clickTheFirstBoard() {
-        click(By.cssSelector(".board-tile-details"));
+        click(By.xpath("//div[@class='board-tile-details is-badged']"));
+        //".board-tile-details"
     }
 
     public void openSideBar() {
-        click(By.cssSelector(".show-sidebar-button-react-root"));
+        click(By.cssSelector(".GDunJzzgFqQY_3 "));
     }
 
     public void openMore() {
