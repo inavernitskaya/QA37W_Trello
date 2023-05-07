@@ -2,8 +2,9 @@
 <suite name="log">
     <test name="log">
         <classes>
-            <class name="tests.BoardCreation"/>
-            <class name="tests.BoardDeletion"/>
+            <class name="tests.BoardCreation2"/>
+            <class name="tests.BoardDeletion2"/>
+
 
 
         </classes>

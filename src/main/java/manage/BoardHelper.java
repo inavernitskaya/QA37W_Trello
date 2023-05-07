@@ -48,7 +48,7 @@ public class BoardHelper extends HelperBase{
     }
 
     public int getBoardCount() {
-        return wd.findElements(By.cssSelector(".board-tile-details")).size()-1-recentlyViewed();
+        return wd.findElements(By.cssSelector(".board-tile-details-name")).size()-1-recentlyViewed();
     }
 
     private int recentlyViewed() {
@@ -57,7 +57,7 @@ public class BoardHelper extends HelperBase{
 
 
     public void clickTheFirstBoard() {
-        click(By.xpath("//div[@class='board-tile-details is-badged']"));
+        click(By.xpath("//div[@class='.board-tile-details is-badged']"));
         //".board-tile-details"
     }
 
@@ -81,7 +81,7 @@ public class BoardHelper extends HelperBase{
 
     public void startBoardCreation() {
         //click(By.cssSelector(".remaining"));
-        click(By.cssSelector(".mod-add"));
+        click(By.cssSelector("..szBTSFrvPTLGHM"));
     }
 
     public void openBoard() {

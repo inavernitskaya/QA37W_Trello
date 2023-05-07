@@ -73,7 +73,7 @@ public class BoardCreation extends TestBase {
 
     }
 
-    @Test
+    @Test(groups = "group2")
     public void boardCreation2() {
 
         int boardCountBeforeCreation = app.getBoard().getBoardCount();
@@ -119,5 +119,43 @@ public class BoardCreation extends TestBase {
         app.getBoard().returnToCreationPage();
     }
 
+    @Test(groups = "group")
+    public void boardCreation6() {
+        Board board = Board.builder().title("qa37").build();
+
+        logger.info("Board creation---"+board.getTitle());
+        app.getBoard().initBoardCreationFromHeader();
+        app.getBoard().fillInBoardCreationForm(board);
+        //  app.getBoard().scrollDownTheForm();
+        app.getBoard().pause(2000);
+        app.getBoard().submitBoardCreation();
+        app.getBoard().pause(2000);
+
+        Assert.assertTrue(app.getBoard().isCreated());
+        logger.info("Created");
+        app.getBoard().pause(2000);
+        app.getBoard().returnToHomePage();
+
+            }
+
+    @Test(groups = "group2")
+    public void boardCreation7() {
+        Board board = Board.builder().title("qa37").build();
+
+        logger.info("Board creation---"+board.getTitle());
+        app.getBoard().initBoardCreationFromHeader();
+        app.getBoard().fillInBoardCreationForm(board);
+        //  app.getBoard().scrollDownTheForm();
+        app.getBoard().pause(2000);
+        app.getBoard().submitBoardCreation();
+        app.getBoard().pause(2000);
+
+
+        Assert.assertTrue(app.getBoard().isCreated());
+        logger.info("Created");
+        app.getBoard().pause(2000);
+        app.getBoard().returnToHomePage();
+
+    }
 
 }
