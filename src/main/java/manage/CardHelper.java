@@ -38,4 +38,3 @@ public class CardHelper extends HelperBase{
         click(By.cssSelector(".pop-over-header-close-btn"));
     }
 }
-

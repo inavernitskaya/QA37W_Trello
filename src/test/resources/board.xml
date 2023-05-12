@@ -6,7 +6,6 @@
             <class name="tests.BoardDeletion2"/>
 
 
-
         </classes>
     </test>
 </suite>

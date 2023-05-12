@@ -1,0 +1,1189 @@
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] 2045031788
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.stop()[pri:0, instance:null] 2136378353
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.startLogger(java.lang.reflect.Method)[pri:0, instance:null] -68692127
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE Login.preCondition()[pri:0, instance:null] -888505181
+15:13:15  DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR Login.preCondition()[pri:0, instance:null] ==> TestBase.startLogger(java.lang.reflect.Method)[pri:0, instance:null]
+15:13:15  DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.startLogger(java.lang.reflect.Method)[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+15:13:15  DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR Login.preCondition()[pri:0, instance:null] ==> TestBase.startLogger(java.lang.reflect.Method)[pri:0, instance:null]
+15:13:15  DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.startLogger(java.lang.reflect.Method)[pri:0, instance:null] FROM NODE Login.preCondition()[pri:0, instance:null]
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+15:13:15  DEBUG org.testng.internal.Graph - [Graph]               TestBase.startLogger(java.lang.reflect.Method)[pri:0, instance:null]
+15:13:15  DEBUG org.testng.internal.Graph - [Graph]               Login.preCondition()[pri:0, instance:null]
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.finishLog()[pri:0, instance:null] 1549693568
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:tests.Login@5c10f1c3] 516090327
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE Login.login1()[pri:0, instance:tests.Login@5c10f1c3] -571707600
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.stop()[pri:0, instance:tests.Login@5c10f1c3] -947133454
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+15:13:15  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+15:13:15  DEBUG i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+15:13:15  DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+15:13:15  DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+15:13:15  DEBUG i.n.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6e9319f
+15:13:15  DEBUG i.n.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+15:13:15  DEBUG i.n.util.internal.PlatformDependent0 - Java version: 11
+15:13:15  DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+15:13:15  DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+15:13:15  DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+15:13:15  DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+15:13:15  DEBUG i.n.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+15:13:15  DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+15:13:15  DEBUG i.n.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @60cf80e7
+15:13:15  DEBUG i.n.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+15:13:15  DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+15:13:15  DEBUG i.n.util.internal.PlatformDependent - maxDirectMemory: 536870912 bytes (maybe)
+15:13:15  DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\ADAM-M~1\AppData\Local\Temp (java.io.tmpdir)
+15:13:15  DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+15:13:15  DEBUG i.n.util.internal.PlatformDependent - Platform: Windows
+15:13:15  DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+15:13:15  DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+15:13:15  DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+15:13:15  DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+15:13:15  DEBUG i.n.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+15:13:15  DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+15:13:16  DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+15:13:16  DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+15:13:16  DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+15:13:16  DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+15:13:16  DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+15:13:16  DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+15:13:16  DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+15:13:16  DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+15:13:16  DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+15:13:16  DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+15:13:16  DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+15:13:16  DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+15:13:16  DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+15:13:16  DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+15:13:16  DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+15:13:16  DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+15:13:16  DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+15:13:16  DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+15:13:16  DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+15:13:16  DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+15:13:16  DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+15:13:17  DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 1160 (auto-detected)
+15:13:17  DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+15:13:17  DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+15:13:17  DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+15:13:17  DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+15:13:17  DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 44:e5:17:ff:fe:db:da:f3 (auto-detected)
+15:13:17  DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+15:13:17  DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+15:13:17  DEBUG i.n.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@44c8f108
+15:13:17  DEBUG o.a.n.channel.NettyConnectListener - Using new Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to '/session'
+15:13:17  DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+15:13:17  DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+15:13:17  DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+15:13:17  DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+15:13:18  DEBUG i.n.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+15:13:18  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 439
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 861
+
+15:13:18  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:18  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:20364 : 1
+15:13:18  DEBUG o.a.n.channel.NettyConnectListener - Using new Channel '[id: 0x381ce7de, L:/127.0.0.1:58783 - R:localhost/127.0.0.1:58776]' for 'GET' to '/json/version'
+15:13:18  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /json/version HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+host: localhost:58776
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Security-Policy: frame-ancestors 'none'
+Content-Type: application/json; charset=UTF-8
+content-length: 422
+
+15:13:18  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:58776 for channel [id: 0x381ce7de, L:/127.0.0.1:58783 - R:localhost/127.0.0.1:58776]
+15:13:18  DEBUG i.n.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x6d2257b706472e8d
+15:13:18  DEBUG o.a.n.channel.NettyConnectListener - Using new Channel '[id: 0x5c303d62, L:/127.0.0.1:58784 - R:localhost/127.0.0.1:58776]' for 'GET' to '/devtools/browser/38bdbf42-e756-4eb4-969a-ee967bd1fed5'
+15:13:18  DEBUG o.a.netty.handler.WebSocketHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /devtools/browser/38bdbf42-e756-4eb4-969a-ee967bd1fed5 HTTP/1.1
+upgrade: websocket
+connection: upgrade
+sec-websocket-key: 7bkjn+PR9uilsBTvvo/H5w==
+sec-websocket-version: 13
+origin: http://localhost:58776
+host: localhost:58776
+accept: */*
+user-agent: AHC/2.1
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 101 WebSocket Protocol Handshake
+Upgrade: WebSocket
+Connection: Upgrade
+Sec-WebSocket-Accept: kfRRGYroWyfSlZP5zNSR0gq00cI=
+
+15:13:18  INFO  manage.ApplicationManager - Tests run in Chrome browser
+15:13:19  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:19  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:20364 : 1
+15:13:19  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/window/maximize'
+15:13:19  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/window/maximize'
+15:13:19  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/window/maximize HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 3
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 51
+
+15:13:19  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:19  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/timeouts'
+15:13:19  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/timeouts'
+15:13:19  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/timeouts HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 22
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:19  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:19  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/url'
+15:13:19  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/url'
+15:13:20  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:20  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/url HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 49
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:20  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:20  INFO  manage.MyListener - Before find element By---By.cssSelector: [href='/login']
+15:13:20  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:20  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:20  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 64
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+15:13:20  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:20  INFO  manage.MyListener - After find element By---By.cssSelector: [href='/login']
+15:13:20  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element/19bb0174-d15c-41ba-85b3-514d964ef4a8/click'
+15:13:20  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element/19bb0174-d15c-41ba-85b3-514d964ef4a8/click'
+15:13:21  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:22  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element/19bb0174-d15c-41ba-85b3-514d964ef4a8/click HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:22  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:22  INFO  manage.MyListener - Before find element By---By.cssSelector: #user
+15:13:22  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:22  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:22  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 49
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+15:13:22  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:22  INFO  manage.MyListener - After find element By---By.cssSelector: #user
+15:13:22  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element/52764342-0e81-493c-96f3-e452daff42c8/click'
+15:13:22  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element/52764342-0e81-493c-96f3-e452daff42c8/click'
+15:13:22  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element/52764342-0e81-493c-96f3-e452daff42c8/click HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:22  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:22  INFO  manage.MyListener - Before find element By---By.cssSelector: #user
+15:13:22  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:22  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:22  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 49
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+15:13:22  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:22  INFO  manage.MyListener - After find element By---By.cssSelector: #user
+15:13:22  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element/52764342-0e81-493c-96f3-e452daff42c8/clear'
+15:13:22  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element/52764342-0e81-493c-96f3-e452daff42c8/clear'
+15:13:22  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element/52764342-0e81-493c-96f3-e452daff42c8/clear HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:22  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:22  INFO  manage.MyListener - Before find element By---By.cssSelector: #user
+15:13:22  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:22  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:22  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 49
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+15:13:22  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:22  INFO  manage.MyListener - After find element By---By.cssSelector: #user
+15:13:22  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element/52764342-0e81-493c-96f3-e452daff42c8/value'
+15:13:22  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element/52764342-0e81-493c-96f3-e452daff42c8/value'
+15:13:22  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element/52764342-0e81-493c-96f3-e452daff42c8/value HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 321
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:22  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:22  INFO  manage.MyListener - Before find element By---By.cssSelector: #login
+15:13:22  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:22  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:22  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+15:13:22  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:22  INFO  manage.MyListener - After find element By---By.cssSelector: #login
+15:13:22  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element/ab8c296d-69c2-485a-89e2-5e484d1e6158/click'
+15:13:22  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element/ab8c296d-69c2-485a-89e2-5e484d1e6158/click'
+15:13:22  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element/ab8c296d-69c2-485a-89e2-5e484d1e6158/click HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:22  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:22  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:22  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:20364 : 1
+15:13:23  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:23  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:20364 : 1
+15:13:24  INFO  manage.MyListener - Before find element By---By.cssSelector: #password
+15:13:24  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:24  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:24  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 53
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+15:13:24  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:24  INFO  manage.MyListener - After find element By---By.cssSelector: #password
+15:13:24  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element/e3550f8d-5512-4f6c-bf22-cecbe94925b1/click'
+15:13:24  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element/e3550f8d-5512-4f6c-bf22-cecbe94925b1/click'
+15:13:24  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element/e3550f8d-5512-4f6c-bf22-cecbe94925b1/click HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:24  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:24  INFO  manage.MyListener - Before find element By---By.cssSelector: #password
+15:13:24  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:24  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:24  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 53
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+15:13:24  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:24  INFO  manage.MyListener - After find element By---By.cssSelector: #password
+15:13:24  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element/e3550f8d-5512-4f6c-bf22-cecbe94925b1/clear'
+15:13:24  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element/e3550f8d-5512-4f6c-bf22-cecbe94925b1/clear'
+15:13:24  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element/e3550f8d-5512-4f6c-bf22-cecbe94925b1/clear HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:24  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:24  INFO  manage.MyListener - Before find element By---By.cssSelector: #password
+15:13:24  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:24  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:24  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 53
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+15:13:24  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:24  INFO  manage.MyListener - After find element By---By.cssSelector: #password
+15:13:24  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element/e3550f8d-5512-4f6c-bf22-cecbe94925b1/value'
+15:13:24  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element/e3550f8d-5512-4f6c-bf22-cecbe94925b1/value'
+15:13:24  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element/e3550f8d-5512-4f6c-bf22-cecbe94925b1/value HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 161
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:24  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:24  INFO  manage.MyListener - Before find element By---By.cssSelector: #login-submit
+15:13:24  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:24  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:24  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 57
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+15:13:24  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:24  INFO  manage.MyListener - After find element By---By.cssSelector: #login-submit
+15:13:24  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element/7f7dc958-4d55-4522-b6ff-8da6ce449399/click'
+15:13:24  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element/7f7dc958-4d55-4522-b6ff-8da6ce449399/click'
+15:13:24  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element/7f7dc958-4d55-4522-b6ff-8da6ce449399/click HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:24  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:24  INFO  tests.TestBase - Tests start---login1
+15:13:24  INFO  manage.MyListener - Before find elements By---By.cssSelector: [data-testid='header-member-menu-button']
+15:13:24  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/elements'
+15:13:24  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/elements'
+15:13:24  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:25  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:27  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:28  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:29  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/elements HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 85
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 90
+
+15:13:29  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:29  INFO  manage.MyListener - After find element By---By.cssSelector: [data-testid='header-member-menu-button']
+15:13:29  INFO  manage.MyListener - List size is---1
+15:13:29  INFO  manage.MyListener - Before find element By---By.cssSelector: [data-testid='header-member-menu-button']
+15:13:29  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:29  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:29  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:29  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 85
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+15:13:29  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:29  INFO  manage.MyListener - After find element By---By.cssSelector: [data-testid='header-member-menu-button']
+15:13:29  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element/223ea5b1-0833-4441-80ef-ab2fb3cbe819/click'
+15:13:29  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element/223ea5b1-0833-4441-80ef-ab2fb3cbe819/click'
+15:13:29  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element/223ea5b1-0833-4441-80ef-ab2fb3cbe819/click HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:29  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:29  INFO  manage.MyListener - Before find element By---By.cssSelector: [data-testid='account-menu-logout']
+15:13:29  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:29  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:29  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 79
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+15:13:29  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:29  INFO  manage.MyListener - After find element By---By.cssSelector: [data-testid='account-menu-logout']
+15:13:29  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element/dc3efb87-3ae6-44d8-81a4-03e368bf4a2e/click'
+15:13:29  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element/dc3efb87-3ae6-44d8-81a4-03e368bf4a2e/click'
+15:13:30  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:30  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element/dc3efb87-3ae6-44d8-81a4-03e368bf4a2e/click HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:30  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:30  INFO  manage.MyListener - Before find element By---By.cssSelector: #logout-submit
+15:13:30  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:30  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:30  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 58
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+15:13:30  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:30  INFO  manage.MyListener - After find element By---By.cssSelector: #logout-submit
+15:13:30  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element/95aa4e41-f8e0-41c8-b76c-f1cd7f5e4bff/click'
+15:13:30  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element/95aa4e41-f8e0-41c8-b76c-f1cd7f5e4bff/click'
+15:13:31  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:31  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element/95aa4e41-f8e0-41c8-b76c-f1cd7f5e4bff/click HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:31  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:31  INFO  tests.Login - Test login positive 1---inavernitskaya@gmail.comaA54321!
+15:13:31  INFO  manage.MyListener - Before find element By---By.cssSelector: [href='/login']
+15:13:31  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:31  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:32  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:33  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:34  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 64
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+15:13:34  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:34  INFO  manage.MyListener - After find element By---By.cssSelector: [href='/login']
+15:13:34  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element/151def25-70c1-4ed9-8533-996f4893d431/click'
+15:13:34  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element/151def25-70c1-4ed9-8533-996f4893d431/click'
+15:13:34  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:35  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element/151def25-70c1-4ed9-8533-996f4893d431/click HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:35  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:35  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:35  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:20364 : 1
+15:13:36  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:36  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:20364 : 1
+15:13:37  INFO  manage.MyListener - Before find element By---By.cssSelector: #user
+15:13:37  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:37  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:37  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 49
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+15:13:37  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:37  INFO  manage.MyListener - After find element By---By.cssSelector: #user
+15:13:37  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element/68178e24-6052-4d0d-b943-ecd40c3bf9b1/click'
+15:13:37  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element/68178e24-6052-4d0d-b943-ecd40c3bf9b1/click'
+15:13:37  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element/68178e24-6052-4d0d-b943-ecd40c3bf9b1/click HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:37  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:37  INFO  manage.MyListener - Before find element By---By.cssSelector: #user
+15:13:37  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:37  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:37  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 49
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+15:13:37  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:37  INFO  manage.MyListener - After find element By---By.cssSelector: #user
+15:13:37  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element/68178e24-6052-4d0d-b943-ecd40c3bf9b1/clear'
+15:13:37  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element/68178e24-6052-4d0d-b943-ecd40c3bf9b1/clear'
+15:13:37  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element/68178e24-6052-4d0d-b943-ecd40c3bf9b1/clear HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:37  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:37  INFO  manage.MyListener - Before find element By---By.cssSelector: #user
+15:13:37  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:37  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:37  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 49
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+15:13:37  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:37  INFO  manage.MyListener - After find element By---By.cssSelector: #user
+15:13:37  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element/68178e24-6052-4d0d-b943-ecd40c3bf9b1/value'
+15:13:37  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element/68178e24-6052-4d0d-b943-ecd40c3bf9b1/value'
+15:13:37  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element/68178e24-6052-4d0d-b943-ecd40c3bf9b1/value HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 321
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:37  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:37  INFO  manage.MyListener - Before find element By---By.cssSelector: #login
+15:13:37  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:37  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:37  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+15:13:37  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:37  INFO  manage.MyListener - After find element By---By.cssSelector: #login
+15:13:37  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element/7477a09d-a681-4e36-9abe-b55bd721af4d/click'
+15:13:37  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element/7477a09d-a681-4e36-9abe-b55bd721af4d/click'
+15:13:37  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element/7477a09d-a681-4e36-9abe-b55bd721af4d/click HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:37  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:38  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:38  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:20364 : 1
+15:13:39  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:39  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:20364 : 1
+15:13:39  INFO  manage.MyListener - Before find element By---By.cssSelector: #password
+15:13:39  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:39  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:39  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 53
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+15:13:39  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:39  INFO  manage.MyListener - After find element By---By.cssSelector: #password
+15:13:39  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element/d131fcdb-338e-46d9-ae07-51b890eaa541/click'
+15:13:39  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element/d131fcdb-338e-46d9-ae07-51b890eaa541/click'
+15:13:39  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element/d131fcdb-338e-46d9-ae07-51b890eaa541/click HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:39  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:39  INFO  manage.MyListener - Before find element By---By.cssSelector: #password
+15:13:39  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:39  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:39  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 53
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+15:13:39  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:39  INFO  manage.MyListener - After find element By---By.cssSelector: #password
+15:13:39  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element/d131fcdb-338e-46d9-ae07-51b890eaa541/clear'
+15:13:39  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element/d131fcdb-338e-46d9-ae07-51b890eaa541/clear'
+15:13:39  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element/d131fcdb-338e-46d9-ae07-51b890eaa541/clear HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:39  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:39  INFO  manage.MyListener - Before find element By---By.cssSelector: #password
+15:13:39  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:39  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:39  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 53
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+15:13:39  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:39  INFO  manage.MyListener - After find element By---By.cssSelector: #password
+15:13:39  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element/d131fcdb-338e-46d9-ae07-51b890eaa541/value'
+15:13:39  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element/d131fcdb-338e-46d9-ae07-51b890eaa541/value'
+15:13:39  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element/d131fcdb-338e-46d9-ae07-51b890eaa541/value HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 161
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:39  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:39  INFO  manage.MyListener - Before find element By---By.cssSelector: #login-submit
+15:13:39  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:39  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element'
+15:13:39  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 57
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+15:13:39  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:39  INFO  manage.MyListener - After find element By---By.cssSelector: #login-submit
+15:13:39  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/element/2d535829-dbe3-40e9-aaaa-49a7183ada5c/click'
+15:13:39  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/element/2d535829-dbe3-40e9-aaaa-49a7183ada5c/click'
+15:13:39  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/element/2d535829-dbe3-40e9-aaaa-49a7183ada5c/click HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:39  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:40  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:40  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:20364 : 1
+15:13:41  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:41  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:20364 : 1
+15:13:41  INFO  tests.Login - Logged--
+15:13:41  INFO  manage.MyListener - Before find elements By---By.cssSelector: [data-testid='header-member-menu-button']
+15:13:41  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'POST' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/elements'
+15:13:41  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for POST '/session/9e539026cc39c1b3243f1681df2fa0ad/elements'
+15:13:42  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:43  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:44  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:45  DEBUG o.a.netty.channel.DefaultChannelPool - Entry count for : http://localhost:58776 : 1
+15:13:45  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/9e539026cc39c1b3243f1681df2fa0ad/elements HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Length: 85
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 90
+
+15:13:45  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:45  INFO  manage.MyListener - After find element By---By.cssSelector: [data-testid='header-member-menu-button']
+15:13:45  INFO  manage.MyListener - List size is---1
+15:13:45  INFO  tests.TestBase - ********************************************************************************************************
+15:13:45  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'DELETE' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad/window'
+15:13:45  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for DELETE '/session/9e539026cc39c1b3243f1681df2fa0ad/window'
+15:13:46  DEBUG o.a.netty.handler.WebSocketHandler - Channel Closed: [id: 0x5c303d62, L:/127.0.0.1:58784 ! R:localhost/127.0.0.1:58776] with attribute NettyResponseFuture{currentRetry=0,
+	isDone=1,
+	isCancelled=0,
+	asyncHandler=org.asynchttpclient.ws.WebSocketUpgradeHandler@7e71af66,
+	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@785920c,
+	future=java.util.concurrent.CompletableFuture@6883047e[Completed normally],
+	uri=ws://localhost:58776/devtools/browser/38bdbf42-e756-4eb4-969a-ee967bd1fed5,
+	keepAlive=true,
+	redirectCount=0,
+	timeoutsHolder=null,
+	inAuth=0,
+	touch=1683893598534}
+15:13:46  DEBUG o.a.netty.channel.ChannelManager - Closing Channel [id: 0x5c303d62, L:/127.0.0.1:58784 ! R:localhost/127.0.0.1:58776] 
+15:13:46  DEBUG o.a.netty.handler.HttpHandler - Channel Closed: [id: 0x381ce7de, L:/127.0.0.1:58783 ! R:localhost/127.0.0.1:58776] with attribute DISCARD
+15:13:46  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/9e539026cc39c1b3243f1681df2fa0ad/window HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 12
+
+15:13:46  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:46  DEBUG o.a.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]' for 'DELETE' to 'http://localhost:20364/session/9e539026cc39c1b3243f1681df2fa0ad'
+15:13:46  DEBUG o.a.netty.request.NettyRequestSender - Using open Channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364] for DELETE '/session/9e539026cc39c1b3243f1681df2fa0ad'
+15:13:46  DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/9e539026cc39c1b3243f1681df2fa0ad HTTP/1.1
+User-Agent: selenium/4.7.0 (java windows)
+Content-Type: application/json; charset=utf-8
+host: localhost:20364
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+15:13:46  DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:20364 for channel [id: 0xa36612c9, L:/127.0.0.1:58775 - R:localhost/127.0.0.1:20364]
+15:13:46  DEBUG o.a.netty.handler.HttpHandler - Channel Closed: [id: 0xa36612c9, L:/127.0.0.1:58775 ! R:localhost/127.0.0.1:20364] with attribute DISCARD

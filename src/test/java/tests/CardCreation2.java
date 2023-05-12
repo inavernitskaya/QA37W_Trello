@@ -5,9 +5,10 @@ import model.Card;
 import org.testng.annotations.Test;
 
 public class CardCreation2 extends TestBase{
+
     @Test(dataProvider = "dataCardCSV", dataProviderClass = MyDataProvider.class)
     public void cardCreation2(Card card){
-       // Card card = Card.builder().cardName("testqa37").color("green").build();
+        //Card card = Card.builder().cardName("testqa37").color("green").build();
 
         app.getBoard().clickTheFirstBoard();
         app.getBoard().pause(3000);

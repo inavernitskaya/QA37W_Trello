@@ -9,10 +9,21 @@ public class BoardDeletion extends TestBase{
         app.getBoard().clickTheFirstBoard();
         app.getBoard().pause(4000);
         app.getBoard().openSideBar();
+        app.getBoard().pause(2000);
         app.getBoard().openMore();
         app.getBoard().closeBoard();
         app.getBoard().deleteBoard();
     }
+    @Test(groups = "group2")
+    public void boardDeletion2(){
+        app.getBoard().clickTheFirstBoard();
+        app.getBoard().pause(4000);
+        app.getBoard().openSideBar();
+        app.getBoard().openMore();
+        app.getBoard().closeBoard();
+        app.getBoard().deleteBoard();
+    }
+
     @Test
     public void refuseBoardDeletion(){
         app.getBoard().clickTheFirstBoard();
@@ -23,15 +34,5 @@ public class BoardDeletion extends TestBase{
         app.getBoard().openBoard();
         app.getBoard().pause(2000);
         app.getBoard().returnToHomePage();
-    }
-
-    @Test(groups = "group2")
-    public void boardDeletion2(){
-        app.getBoard().clickTheFirstBoard();
-        app.getBoard().pause(4000);
-        app.getBoard().openSideBar();
-        app.getBoard().openMore();
-        app.getBoard().closeBoard();
-        app.getBoard().deleteBoard();
     }
 }

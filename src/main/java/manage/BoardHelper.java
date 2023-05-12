@@ -16,7 +16,7 @@ public class BoardHelper extends HelperBase{
 
     public void initBoardCreationFromHeader() {
         click(By.cssSelector("[data-testid='header-create-menu-button']"));
-        click(By.cssSelector("button[data-testid='header-create-board-button'] p[class='ngLzg2JOI5hhvs']")); //[data-testid='header-create-board-button']
+        click(By.cssSelector("[data-testid='header-create-board-button']")); //[aria-label='BoardIcon']
     }
 
     public void fillInBoardCreationForm(String title) {
@@ -55,14 +55,12 @@ public class BoardHelper extends HelperBase{
         return wd.findElements(By.xpath("//*[contains(@class, 'icon-clock')]/../..//div")).size();
     }
 
-
     public void clickTheFirstBoard() {
-        click(By.xpath("//div[@class='.board-tile-details is-badged']"));
-        //".board-tile-details"
-    }
+        click(By.cssSelector(".board-tile-details"));
+    }//.board-tile-details-name //.board-tile-details
 
     public void openSideBar() {
-        click(By.cssSelector(".GDunJzzgFqQY_3 "));
+        click(By.cssSelector(".GDunJzzgFqQY_3"));
     }
 
     public void openMore() {
@@ -81,7 +79,7 @@ public class BoardHelper extends HelperBase{
 
     public void startBoardCreation() {
         //click(By.cssSelector(".remaining"));
-        click(By.cssSelector("..szBTSFrvPTLGHM"));
+        click(By.cssSelector(".mod-add"));
     }
 
     public void openBoard() {
