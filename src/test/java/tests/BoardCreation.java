@@ -73,7 +73,7 @@ public class BoardCreation extends TestBase {
 
     }
 
-    @Test(groups = "group2")
+    @Test
     public void boardCreation2() {
 
         int boardCountBeforeCreation = app.getBoard().getBoardCount();
@@ -119,7 +119,7 @@ public class BoardCreation extends TestBase {
         app.getBoard().returnToCreationPage();
     }
 
-    @Test(groups = "group")
+    @Test
     public void boardCreation6() {
         Board board = Board.builder().title("qa37").build();
 
@@ -138,7 +138,7 @@ public class BoardCreation extends TestBase {
 
             }
 
-    @Test(groups = "group2")
+    @Test
     public void boardCreation7() {
         Board board = Board.builder().title("qa37").build();
 
